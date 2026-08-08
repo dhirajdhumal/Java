@@ -1,9 +1,7 @@
-package filehandling;
+package fileHandling;
 
-import java.io.File;
-import java.io.IOException;
 import java.io.FileWriter;
-import java.text.Format;
+import java.io.IOException;
 
 public class WriteDataIntoTxtFIle {
     public static void main(String[] args) {

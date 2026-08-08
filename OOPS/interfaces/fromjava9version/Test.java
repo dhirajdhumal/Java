@@ -1,4 +1,4 @@
-package com.interfaces.fromjava9version;
+package interfaces.fromjava9version;
 
 public interface Test {
     static void m1(){

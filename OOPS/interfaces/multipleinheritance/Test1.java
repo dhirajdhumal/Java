@@ -1,4 +1,4 @@
-package com.interfaces.multipleinheritance;
+package interfaces.multipleinheritance;
 
 public interface Test1 {
     void login();

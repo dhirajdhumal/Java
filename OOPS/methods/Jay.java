@@ -1,4 +1,4 @@
-package com.methods;
+package methods;
 
 public class Jay {
     //Method with return type and parameters

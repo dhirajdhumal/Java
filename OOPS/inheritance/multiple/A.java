@@ -1,4 +1,4 @@
-package com.inheritance.multiple;
+package inheritance.multiple;
 
 public class A {
 }

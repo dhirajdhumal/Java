@@ -1,4 +1,4 @@
-package com.methods;
+package methods;
 
 public class Dhiraj {
     //method with return type but no parameters

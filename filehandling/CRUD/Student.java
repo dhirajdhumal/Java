@@ -1,4 +1,4 @@
-package filehandling.CRUD;
+package fileHandling.CRUD;
 
 import java.io.File;
 import java.io.FileReader;

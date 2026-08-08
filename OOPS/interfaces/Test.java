@@ -1,4 +1,4 @@
-package com.interfaces;
+package interfaces;
 
 public interface Test {
     int id = 10;

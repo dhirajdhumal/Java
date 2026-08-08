@@ -1,4 +1,4 @@
-package com.polymorphism.runtimepolymorphism;
+package polymorphism.runtimepolymorphism;
 
 public class UPIPayment extends Payment{
     @Override      //Annotation  -> it shows extra information

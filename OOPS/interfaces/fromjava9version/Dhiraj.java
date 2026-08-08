@@ -1,4 +1,4 @@
-package com.interfaces.fromjava9version;
+package interfaces.fromjava9version;
 
 public class Dhiraj implements Test, Test2, Test3{
 

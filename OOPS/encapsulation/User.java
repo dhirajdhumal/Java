@@ -1,4 +1,4 @@
-package com.encapsulation;
+package encapsulation;
 
 public class User {
     // evry class default value is null String is DataType and Class also

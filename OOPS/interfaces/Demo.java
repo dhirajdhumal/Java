@@ -1,4 +1,4 @@
-package com.interfaces;
+package interfaces;
 
 public class Demo implements Test{
     @Override

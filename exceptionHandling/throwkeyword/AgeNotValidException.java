@@ -1,4 +1,4 @@
-package exception.throwkeyword;
+package exceptionHandling.throwkeyword;
 
 public class AgeNotValidException extends RuntimeException{
     public AgeNotValidException(String msg) {

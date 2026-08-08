@@ -1,4 +1,4 @@
-package filehandling;
+package fileHandling;
 
 public class Student {
     public int getId() {

@@ -1,4 +1,4 @@
-package exception.throwskeyword;
+package exceptionHandling.throwskeyword;
 
 public class Dhiraj {
 

@@ -1,6 +1,4 @@
-package com.constructor;
-
-import java.awt.print.Book;
+package constructor;
 
 public class BookConstructor {
     BookConstructor(){

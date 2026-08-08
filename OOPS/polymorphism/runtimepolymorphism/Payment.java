@@ -1,4 +1,4 @@
-package com.polymorphism.runtimepolymorphism;
+package polymorphism.runtimepolymorphism;
 
 public class Payment {
 

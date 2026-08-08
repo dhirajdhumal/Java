@@ -1,4 +1,4 @@
-package exception.runtimeexceptions;
+package exceptionHandling.runtimeexceptions;
 
 public class Arithmetic {
     public static void main(String[] args) {

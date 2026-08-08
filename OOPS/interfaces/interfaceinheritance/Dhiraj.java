@@ -1,4 +1,4 @@
-package com.interfaces.interfaceinheritance;
+package interfaces.interfaceinheritance;
 
 public class Dhiraj implements Test1 {
     @Override

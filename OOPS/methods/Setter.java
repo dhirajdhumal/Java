@@ -1,4 +1,4 @@
-package com.methods;
+package methods;
 
 public class Setter {
     String username;

@@ -1,4 +1,4 @@
-package com.inheritance.hirarchical;
+package inheritance.hirarchical;
 
 public class SBI extends Bank{
     SBI(){

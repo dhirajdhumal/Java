@@ -1,6 +1,4 @@
-package com.constructor;
-
-import javax.swing.*;
+package constructor;
 
 public class User {
     String username;

@@ -1,4 +1,4 @@
-package exception.runtimeexceptions;
+package exceptionHandling.runtimeexceptions;
 
 public class ArrayOutOfBound {
     public static void main(String[] args) {

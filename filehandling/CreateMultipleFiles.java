@@ -1,4 +1,4 @@
-package filehandling;
+package fileHandling;
 
 import java.io.File;
 
@@ -8,7 +8,7 @@ public class CreateMultipleFiles {
         for(int i=1; i<=100; i++) {
 
 
-            File file = new File("C:\\Users\\Dhiraj\\Documents\\Full Stack - Java\\Java\\ExceptionHandlingFileHandling\\src\\main\\java\\filehandling\\employee'"+i+"'.txt");
+            File file = new File("C:\\Users\\Dhiraj\\Documents\\Full Stack - Java\\Java\\ExceptionHandlingFileHandling\\src\\main\\java\\fileHandling\\employee'"+i+"'.txt");
 
 //            try {
             //delete multiple files

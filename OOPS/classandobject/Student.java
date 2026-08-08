@@ -1,4 +1,4 @@
-package com.classandobject;
+package classandobject;
 
 public class Student {
     /*

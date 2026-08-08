@@ -1,6 +1,6 @@
-package com.interfaces.multipleinheritance;
+package interfaces.multipleinheritance;
 
-import com.interfaces.fromjava9version.Test;
+import interfaces.fromjava9version.Test;
 
 public class Dhiraj implements Test1, Test2 {
     @Override

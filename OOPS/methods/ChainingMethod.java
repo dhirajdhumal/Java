@@ -1,4 +1,4 @@
-package com.methods;
+package methods;
 
 public class ChainingMethod {
     void m1(){

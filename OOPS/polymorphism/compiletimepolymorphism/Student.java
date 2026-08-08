@@ -1,4 +1,4 @@
-package com.polymorphism.compiletimepolymorphism;
+package polymorphism.compiletimepolymorphism;
 
 public class Student {
     void study(int a){

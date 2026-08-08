@@ -1,4 +1,4 @@
-package com.inheritance.multilevel2;
+package inheritance.multilevel2;
 
 public class JavaTrainer extends Trainer {
     String javaTrainerName;

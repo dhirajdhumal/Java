@@ -1,4 +1,4 @@
-package exception.throwkeyword;
+package exceptionHandling.throwkeyword;
 
 import java.util.Scanner;
 

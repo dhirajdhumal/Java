@@ -1,4 +1,4 @@
-package com.inheritance.multilevel;
+package inheritance.multilevel;
 
 public class Trainer extends Person{
     int trainerId;

@@ -1,4 +1,4 @@
-package com.methods;
+package methods;
 
 public class Test {
     //Method no return type and with parameters
