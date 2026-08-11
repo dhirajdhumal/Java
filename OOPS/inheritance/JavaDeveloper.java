@@ -1,6 +1,12 @@
 package inheritance;
 
 public class JavaDeveloper extends Employee{
+
+    public JavaDeveloper() {
+         // Calls the parent class constructor
+        System.out.println("JavaDeveloper constructor");
+    }
+
     void developJavaProject(){
         System.out.println("Java Developer is developer");
     }
