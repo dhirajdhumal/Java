@@ -1,4 +1,4 @@
-package THISANDSUPER.superkeywordcall;
+package thisandsuper.superkeywordcall;
 
 public class Child extends SuperKeywordCall{
     String name = "jay";

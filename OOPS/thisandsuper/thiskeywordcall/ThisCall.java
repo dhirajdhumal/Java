@@ -1,4 +1,4 @@
-package THISANDSUPER.thiskeywordcall;
+package thisandsuper.thiskeywordcall;
 
 public class ThisCall {
 

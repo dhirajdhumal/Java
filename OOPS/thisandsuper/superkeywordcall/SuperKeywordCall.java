@@ -1,4 +1,4 @@
-package THISANDSUPER.superkeywordcall;
+package thisandsuper.superkeywordcall;
 
 public class SuperKeywordCall {
     int age = 10;
