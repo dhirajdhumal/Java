@@ -25,7 +25,7 @@ public class Student {
             System.out.println("Ascii Number Of First Letter Of File: " + data);
             System.out.println("File readed Successfully");
         } catch (IOException e) {
-            System.out.println(e.getMessage());
+            System.out.println(e.getMessage ());
         }
     }
 
