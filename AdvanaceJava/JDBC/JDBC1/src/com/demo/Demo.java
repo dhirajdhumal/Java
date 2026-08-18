@@ -16,7 +16,7 @@ public class Demo {
 		//execute is a method of Statement Interface
 		
 		try {
-//			Class.forName("com.mysql.cj.jdbc.Driver");
+			Class.forName("com.mysql.cj.jdbc.Driver");
 			Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306", "root", "Jay@9322");
 			
 			Statement st = con.createStatement();
@@ -28,5 +28,4 @@ public class Demo {
 			e.printStackTrace();
 		}
 	}
-
 }
