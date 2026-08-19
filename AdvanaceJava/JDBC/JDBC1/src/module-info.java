@@ -4,6 +4,6 @@
 /**
  * 
  */
-module JDBC1 {
+module com.JDBC2 {
 	requires java.sql;
 }

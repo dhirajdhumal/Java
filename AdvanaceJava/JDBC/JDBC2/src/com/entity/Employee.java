@@ -12,15 +12,8 @@ public class Employee {
 	private String city;
 	
 	private double salary;
-
 	
 	
-
-	@Override
-	public String toString() {
-		return "Employee [id=" + id + ", name=" + name + ", gender=" + gender + ", department=" + department + ", city="
-				+ city + ", salary=" + salary + "]";
-	}
 
 	public Employee(int id, String name, String gender, String department, String city, double salary) {
 		super();
