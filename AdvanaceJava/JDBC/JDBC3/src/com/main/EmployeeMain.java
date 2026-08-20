@@ -1,30 +1,31 @@
 package com.main;
 
 import com.controller.EmployeeController;
+import com.entity.Employee;
 
 public class EmployeeMain {
 
     public static void main(String[] args) {
         EmployeeController controller = new EmployeeController();
 
-		while(true){
-			System.out.println("1. Insert Employee");
-			System.out.println("2. Update Employee");
-			System.out.println("3. Delete Employee");
-			System.out.println("4. Get by Id Employee");
-			System.out.println("5. Get Employee By Name");
-			System.out.println("6. Get Employee By Department");
-			System.out.println("7. Delete Employee by Id");
-			System.out.println("8. Get All Employees");
-			System.out.println("9. Exit");
-		}
+		// while(true){
+		// 	System.out.println("1. Insert Employee");
+		// 	System.out.println("2. Update Employee");
+		// 	System.out.println("3. Delete Employee");
+		// 	System.out.println("4. Get by Id Employee");
+		// 	System.out.println("5. Get Employee By Name");
+		// 	System.out.println("6. Get Employee By Department");
+		// 	System.out.println("7. Delete Employee by Id");
+		// 	System.out.println("8. Get All Employees");
+		// 	System.out.println("9. Exit");
+		// }
 
         // Insert Data
-		// Employee e = new Employee(15, "Hardik", "Male", "Barods", "Cricket", 45784541);
+		Employee e = new Employee(15, "Hardik", "Male", "Barods", "Cricket", 45784541);
 		
-		// String msg = controller.insert(e);
+		String msg = controller.insert(e);
 		
-		// System.out.println(msg);
+		System.out.println(msg);
         //Update Data
         // try {
         // 	Employee e = new Employee(15, "Hardik Pandya", "Male", "Baroda", "International + National", 78454515);
