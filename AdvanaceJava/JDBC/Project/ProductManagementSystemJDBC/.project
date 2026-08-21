@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>StudentManagementSystem</name>
+	<name>ProductManagementSystemJDBC</name>
 	<comment></comment>
 	<projects>
 	</projects>
@@ -16,7 +16,7 @@
 	</natures>
 	<filteredResources>
 		<filter>
-			<id>1787247420225</id>
+			<id>1787333307762</id>
 			<name></name>
 			<type>30</type>
 			<matcher>
