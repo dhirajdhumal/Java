@@ -1,9 +1,8 @@
 package com.controllers;
 
-import java.util.List;
-
 import com.Entity.Product;
 import com.services.ProductServices;
+import java.util.List;
 
 public class ProductControllers {
 	ProductServices services = new ProductServices();
@@ -19,6 +18,12 @@ public class ProductControllers {
 	public String delete(int id) {
 		return services.deleteProduct(id);
 	}
-	
-	
+
+	public Product get(int id){
+		return services.getProduct(id);
+	}
+	public List<Product> getAll(){
+		return services.getProduct();
+	}
+
 }

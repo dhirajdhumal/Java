@@ -1,11 +1,9 @@
 package com.services;
 
-import java.util.List;
-
 import com.Dao.ProductDao;
 import com.Entity.Product;
 import com.exception.NoProductAvailableException;
-import com.exception.ProductAlreadyUpdatedException;
+import java.util.List;
 
 public class ProductServices {
 	ProductDao dao = new ProductDao();
@@ -28,5 +26,22 @@ public class ProductServices {
 			throw new NoProductAvailableException("Exception: No Product Found");
 		}	
 		return "Product Deleted Successfully";
+	}
+
+	public Product getProduct(int id){
+		Product product = dao.getProduct(id);
+		if(product == null){
+			throw new NoProductAvailableException("No Product is Found For this id");
+		}
+
+		return product;
+	}
+
+	public List<Product> getProduct(){
+		List<Product> products = dao.getAllProduct();
+		if(products == null){
+			throw new NoProductAvailableException("No Products Are Available in Database");
+		}
+		return products;
 	}
 }
