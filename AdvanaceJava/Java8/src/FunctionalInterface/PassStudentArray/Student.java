@@ -3,10 +3,10 @@ package FunctionalInterface.PassStudentArray;
 public class Student {
     int studentId;
     String studentName;
-    int age;
+    int marks;
 
-    public Student(int age, int studentId, String studentName) {
-        this.age = age;
+    public Student(int marks, int studentId, String studentName) {
+        this.marks = marks;
         this.studentId = studentId;
         this.studentName = studentName;
     }
@@ -14,7 +14,7 @@ public class Student {
 
     @Override
     public String toString() {
-        return "Student [studentId=" + studentId + ", studentName=" + studentName + ", age=" + age + "]";
+        return "Student [studentId=" + studentId + ", studentName=" + studentName + ", age=" + marks + "]";
     }
 
 
@@ -26,8 +26,8 @@ public class Student {
         return studentName;
     }
 
-    public int getAge() {
-        return age;
+    public int getMarks() {
+        return marks;
     }
 
 }
