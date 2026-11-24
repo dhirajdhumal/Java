@@ -9,9 +9,9 @@ public class User {
 	private String address;
 	private String dob;
 	private int age;
-	private long monumber;
+	private String monumber;
 	
-	public User(int id, String username, String password, String email, String gender, String address, String dob, int age, long monumber) {
+	public User(int id, String username, String password, String email, String gender, String address, String dob, int age, String monumber) {
 		super();
 		this.id = id;
 		this.username = username;
@@ -66,7 +66,7 @@ public class User {
 		return age;
 	}
 	
-	public long getMoNumber() {
+	public String getMoNumber() {
 		return monumber;
 	}
 }

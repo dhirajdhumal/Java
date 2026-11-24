@@ -1,11 +1,10 @@
 package com.main;
 
+import com.controller.StudentController;
+import com.entity.User;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
-
-import com.controller.StudentController;
-import com.entity.User;
 
 public class StudentMain {
 	StudentController controller = new StudentController();
@@ -25,7 +24,7 @@ public class StudentMain {
 	}
 	
 	public void insertUser() {
-		User user = new User(2,"Dhiraj", "Jay@9322", "dhirajdh9421@gmail.com", "Male", "Pune", "30-07-2004",22, 942190034);
+		User user = new User(2,"Dhiraj", "Jay@9322", "dhirajdh9421@gmail.com", "Male", "Pune", "30-07-2004",22, "942190034");
 
 		String msg = controller.insertUser(user);
 		
@@ -33,9 +32,9 @@ public class StudentMain {
 	}
 	
 	public void insertMultipleUsers() {
-		try {
-			User user1 = new User(9,"Dhiraj", "Jay@9322", "", "Male", "Pune", "30-07-2004",22, 942190034);
-			User user2 = new User(10,"Dhiraj", "Jay@9322", "dhirajdh@9421gmail.com", "Male", "Pune", "30-07-2004",22, 942190034);
+		try{
+			User user1 = new User(97,"Dhiraj", "Jay@9322", "ok@gmail.com", "Male", "Pune", "30-07-2004",22, "942190034");
+			User user2 = new User(98,"Dhiraj", "Jay@9322", "dhirajdh@9421gmail.com", "Male", "Pune", "30-07-2004",22, "942190034");
 			
 		    List<User> users = Arrays.asList(user1, user2);
 			String msg = controller.insertMultipleUsers(users);
@@ -52,7 +51,7 @@ public class StudentMain {
 	}
 	
 	public void updateUsers() {
-		User user = new User(10, "Dhiraj", "Jay@9322", "Jay@gmail.com", "Male", "Pune", "30-07-2004",22, 942190034);
+		User user = new User(2, "Dhiraj", "Jay@9322", "Jay@gmail.com", "Male", "Pune", "30-07-2004",22, "9421900341");
 		String msg = controller.updateUsers(user);
 		System.out.println(msg);
 	}

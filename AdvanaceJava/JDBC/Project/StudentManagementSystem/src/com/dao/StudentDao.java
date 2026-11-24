@@ -1,14 +1,13 @@
 package com.dao;
 
+import com.entity.User;
+import com.jdbcConnection.JDBCUtil;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.Statement;
 import java.util.ArrayList;
 import java.util.List;
-
-import com.entity.User;
-import com.jdbcConnection.JDBCUtil;
 
 public class StudentDao {
 	Connection con = JDBCUtil.createConnection();
@@ -30,7 +29,7 @@ public class StudentDao {
 		try {
 			Statement st = con.createStatement();
 					
-			st.execute("CREATE TABLE users (id INT, username VARCHAR(32), password VARCHAR(32), email VARCHAR(32), gender VARCHAR(32), address VARCHAR(32), dob VARCHAR(32), age INT, monumber BIGINT)");
+			st.execute("CREATE TABLE users (id INT, username VARCHAR(32), password VARCHAR(32), email VARCHAR(32), gender VARCHAR(32), address VARCHAR(32), dob VARCHAR(32), age INT, monumber varchar(10))");
 			
 			return "Table Created Successfully";
 
@@ -51,7 +50,7 @@ public class StudentDao {
 			pst.setString(6, user.getAddress());
 			pst.setString(7, user.getDob());
 			pst.setInt(8, user.getAge());
-			pst.setLong(9, user.getMoNumber());
+			pst.setString(9, user.getMoNumber());
 			
 			pst.executeUpdate();
 			
@@ -76,7 +75,7 @@ public class StudentDao {
 				pst.setString(6, user.getAddress());
 				pst.setString(7, user.getDob());
 				pst.setInt(8, user.getAge());
-				pst.setLong(9, user.getMoNumber());
+				pst.setString(9, user.getMoNumber());
 				
 				pst.executeUpdate();
 				
@@ -111,7 +110,7 @@ public class StudentDao {
 			pst.setString(5, user.getEmail());
 			pst.setString(6, user.getDob());
 			pst.setInt(7, user.getAge());
-			pst.setLong(8, user.getMoNumber());
+			pst.setString(8, user.getMoNumber());
 
 			pst.setInt(9,user.getId());
 			
@@ -205,7 +204,7 @@ public class StudentDao {
 				String address = rs.getString("address");
 				String dob = rs.getString("dob");
 				int age = rs.getInt("age");
-				long monumber = rs.getLong("monumber");
+				String monumber = rs.getString("monumber");
 				
 				user = new User(id1,username, password, email, gender, address, dob, age, monumber);
 				
